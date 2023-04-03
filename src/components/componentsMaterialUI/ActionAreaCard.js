@@ -26,6 +26,7 @@ export default function ActionAreaCard() {
             height="270"
             image={LiberoA}
             alt="Missão Instituvional"
+            id="foto"
           />
 
           <CardContent>
@@ -95,6 +96,7 @@ export default function ActionAreaCard() {
             height="270"
             image={AnaA}
             alt="Valores Institucionais"
+            id="foto"
           />
 
           <CardContent>
@@ -174,6 +176,7 @@ export default function ActionAreaCard() {
             height="270"
             image={MarcoA}
             alt="Valores Institucionais"
+            id="foto"
           />
 
           <CardContent>

@@ -41,14 +41,14 @@ export default function VerticalLinearStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400 }}>
+    <Box sx={{ maxWidth: 800 }}>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
             <StepLabel
               optional={
                 index === 2 ? (
-                  <Typography variant="caption">Proximo Passo </Typography>
+                  <Typography variant="success">Proximo Passo </Typography>
                 ) : null
               }
             >
@@ -80,9 +80,11 @@ export default function VerticalLinearStepper() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} sx={{ p: 3 }}>
-          <Typography>LVM regularização de imóveis urbanos e rurais - &apos;</Typography>
+          <Typography>
+            LVM regularização de imóveis urbanos e rurais - &apos;
+          </Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
-           Encerrar
+            Encerrar
           </Button>
         </Paper>
       )}
