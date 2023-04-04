@@ -7,11 +7,7 @@ function Header() {
     <div id="header">
       <div id="Reg">
         <img
-          onClick={() => {
-            window.open(
-              "https://api.whatsapp.com/send/?phone=5534991499080&text&type=phone_number&app_absent=0"
-            );
-          }}
+         
           src={Logo}
           id="logoHeader"
           height="80px"
@@ -58,7 +54,9 @@ function Header() {
           </button>
         </div>
         <div id="logowhatsapp">
-          <img alt="contato" src={Whats} height="50px"></img>
+          <img alt="contato" src={Whats} height="50px" onClick={()=>{window.open(
+            "https://api.whatsapp.com/send/?phone=5534991499080&text&type=phone_number&app_absent=0"
+          );}}></img>
         </div>
       </div>
     </div>

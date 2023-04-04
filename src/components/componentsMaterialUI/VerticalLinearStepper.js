@@ -41,7 +41,7 @@ export default function VerticalLinearStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 1100 }}>
+    <Box sx={{ maxWidth: 1400 }}>
       <Stepper id="boxt" activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step
