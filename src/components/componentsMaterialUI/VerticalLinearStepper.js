@@ -44,7 +44,10 @@ export default function VerticalLinearStepper() {
     <Box sx={{ maxWidth: 1100 }}>
       <Stepper id="boxt" activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
-          <Step key={step.label}>
+          <Step
+            id="css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active"
+            key={step.label}
+          >
             <StepLabel
               id="passo"
               optional={

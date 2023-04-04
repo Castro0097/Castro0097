@@ -6,7 +6,17 @@ function Header() {
   return (
     <div id="header">
       <div id="Reg">
-        <img src={Logo} id="logoHeader" height="80px" alt="Logomarca"></img>
+        <img
+          onClick={() => {
+            window.open(
+              "https://api.whatsapp.com/send/?phone=5534991499080&text&type=phone_number&app_absent=0"
+            );
+          }}
+          src={Logo}
+          id="logoHeader"
+          height="80px"
+          alt="Logomarca"
+        ></img>
         <div id="RIU">
           - Regularização de Imóveis Urbanos e Rurais - Direito Imobiliário{" "}
           <strong>ARAXÁ-MG e REGIÃO </strong>

@@ -9,9 +9,28 @@
   font-size: 40pt !important;
 }
 
+circle {
+  color: #007000 !important;
+  cx: 12;
+  cy: 12;
+  r: 12;
+}
+text {
+  font-size: 80pt;
+}
+
+span {
+  font-size: 50px;
+}
+
 .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
   color: #003300 !important;
   font-size: 40pt !important;
+}
+
+#css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #003300 !important;
+  font-size: 90pt !important;
 }
 
 #btnvertical {

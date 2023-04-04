@@ -57,7 +57,7 @@ export default function ControlledAccordions() {
                 <li>
                   <strong>Gestão de Condomínio:</strong> normas e procedimentos
                   que devem ser adotados para a administração do condomínio,
-                  como eleição de síndico, assembleias, prestação de contas,
+                  como eleição de síndico, assembléias, prestação de contas,
                   entre outros.
                 </li>
                 <br></br>
