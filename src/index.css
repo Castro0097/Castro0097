@@ -6,8 +6,29 @@
   }
 }
 
-#boxD{
-  color:#0077ff
+#btnvertical{
+  background: transparent !important;
+  font-size: 12pt !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+
+#passo{
+}
+
+#btnvertical:hover{
+  background: transparent !important;
+  font-size: 12pt !important;
+  border-style: none !important;
+  box-shadow: none !important;
+}
+
+#boxt{
+  line-height: 1.5 !important;
+  font-family: "Century" !important;
+  width: 90%;
+  margin-left: 5%;
+  width: 100% !important;
 }
 
 
@@ -66,7 +87,7 @@ body {
 #texto {
   margin-top: 80px;
   font-size: 16pt;
-  text-indent: 1.2;
+  line-height: 1.8;
   text-align: justify;
   width: 96%;
   margin-left: 2%;
@@ -74,7 +95,7 @@ body {
 }
 #texto2 {
   font-size: 16pt;
-  text-indent: 1.2;
+  line-height: 1.8;
   width: 96%;
   margin-left: 2%;
   text-align: justify;

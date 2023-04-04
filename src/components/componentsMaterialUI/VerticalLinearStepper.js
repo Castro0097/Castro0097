@@ -41,11 +41,12 @@ export default function VerticalLinearStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 800 }}>
-      <Stepper activeStep={activeStep} orientation="vertical">
+    <Box sx={{ maxWidth: 1100 }}>
+      <Stepper id="boxt" activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
             <StepLabel
+              id="passo"
               optional={
                 index === 2 ? (
                   <Typography variant="success">Proximo Passo </Typography>
@@ -59,13 +60,15 @@ export default function VerticalLinearStepper() {
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button
-                    variant="contained"
+                    id="btnvertical"
+                    variant="success"
                     onClick={handleNext}
                     sx={{ mt: 1, mr: 1 }}
                   >
                     {index === steps.length - 1 ? "Fim" : "Proximo"}
                   </Button>
                   <Button
+                    id="btnvertical"
                     disabled={index === 0}
                     onClick={handleBack}
                     sx={{ mt: 1, mr: 1 }}
