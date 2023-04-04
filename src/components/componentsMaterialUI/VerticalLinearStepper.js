@@ -84,7 +84,21 @@ export default function VerticalLinearStepper() {
       {activeStep === steps.length && (
         <Paper square elevation={0} sx={{ p: 3 }}>
           <Typography>
-            LVM regularização de imóveis urbanos e rurais - &apos;
+            Caro cliente, Gostaríamos de agradecer pelo interesse em nossos
+            serviços de regularização de imóveis urbanos e rurais. Lembramos que
+            o primeiro passo é simples: basta encaminhar todos os documentos
+            para o nosso email: atendimento@lvmregulariza.com.br. É importante
+            destacar que para desenvolver uma estratégia personalizada para o
+            seu caso, é necessário o pagamento de honorários, que serão
+            definidos após a análise da documentação. O processo de
+            regularização é iniciado com a análise cuidadosa da documentação
+            necessária para identificar as irregularidades e pendências
+            existentes. Com base nisso, elaboramos uma estratégia personalizada
+            para solucionar cada problema identificado. Assim que a estratégia
+            for definida, formalizamos a contratação e iniciamos o processo de
+            regularização com agilidade e expertise, garantindo a segurança
+            jurídica do seu imóvel. Conte conosco para ajudá-lo a regularizar
+            seu patrimônio. Atenciosamente, Equipe LVM Regularização. &apos;
           </Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
             Encerrar

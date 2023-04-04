@@ -58,13 +58,13 @@ export default function CvMarco() {
             <div id="cvFormat">
               <hr></hr>
               Especialista em engenharia de Segurança do Trabalho -
-              <strong> Universidade FUMEC-MG</strong>
+              <strong> Universidade - FUMEC-MG</strong>
             </div>
             <div id="cvFormat">
               <hr></hr>
               Especialista em gestão ambiental -{" "}
               <strong>
-                Centro Universitário do Planalto de Araxá - UNIARAXÀ
+                Centro Universitário do Planalto de Araxá - UNIARAXÁ
               </strong>
             </div>
           </Typography>

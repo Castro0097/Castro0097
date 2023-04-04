@@ -142,14 +142,14 @@ export default function CvLibero() {
         <AccordionDetails>
           <Typography>
             <div id="cvFormat">
-              <hr></hr> Curso de Regularização fundiária Urbana |Introdução à
+              <hr></hr> Curso de Regularização fundiária Urbana - Introdução à
               regularização fundiária Urbana -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Procedimentos de
+              Curso de Regularização fundiária Urbana - Procedimentos de
               regularização fundiária Urbana-{" "}
               <strong>
                 {" "}
@@ -159,34 +159,34 @@ export default function CvLibero() {
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Instrumentos de
+              Curso de Regularização fundiária Urbana - Instrumentos de
               regularização fundiária Urbana -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
-              <hr></hr> Curso de Regularização fundiária Urbana |Registro da
-              Reurb| -
+              <hr></hr> Curso de Regularização fundiária Urbana - Registro da
+              Reurb -
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Projetos e minutas de Lei
+              Curso de Regularização fundiária Urbana - Projetos e minutas de Lei
               sobre Reurb -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Cadastro Social na Reurb|
+              Curso de Regularização fundiária Urbana - Cadastro Social na Reurb
               -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Regularização fundiária
+              Curso de Regularização fundiária Urbana - Regularização fundiária
               em imóveis da União -{" "}
               <strong>
                 {" "}
@@ -196,13 +196,13 @@ export default function CvLibero() {
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Casa Verde e Amarela -
+              Curso de Regularização fundiária Urbana - Casa Verde e Amarela -
               Programa de Regularização fundiária e melhoria Habitacional -
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
             <div id="cvFormat">
-              <hr></hr> Curso de Regularização fundiária Urbana |Questoes
+              <hr></hr> Curso de Regularização fundiária Urbana - Questões
               práticas aplicadas ao procedimento e projeto de regularização
               fundiária Urbana -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
@@ -210,7 +210,7 @@ export default function CvLibero() {
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana |Identificação e
+              Curso de Regularização fundiária Urbana - Identificação e
               caracterização de áreas irregulares de interesse social -
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>

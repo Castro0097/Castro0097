@@ -34,7 +34,7 @@ export default function CvAna() {
               <hr></hr>
               Bacharelado em Direito -{" "}
               <strong>
-                Centro Universitário do Planalto de Araxá - UNIARAXÀ
+                Centro Universitário do Planalto de Araxá - UNIARAXÁ
               </strong>
             </div>
           </Typography>

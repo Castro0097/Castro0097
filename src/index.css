@@ -1,29 +1,37 @@
-
-
 @media screen and (max-width: 700px) {
   body {
-   display: none;
+    display: none;
   }
 }
 
-#btnvertical{
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #007000 !important;
+  font-size: 40pt !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #003300 !important;
+  font-size: 40pt !important;
+}
+
+#btnvertical {
   background: transparent !important;
   font-size: 12pt !important;
   border-style: none !important;
   box-shadow: none !important;
 }
 
-#passo{
+#passo {
 }
 
-#btnvertical:hover{
+#btnvertical:hover {
   background: transparent !important;
   font-size: 12pt !important;
   border-style: none !important;
   box-shadow: none !important;
 }
 
-#boxt{
+#boxt {
   line-height: 1.5 !important;
   font-family: "Century" !important;
   width: 90%;
@@ -31,19 +39,17 @@
   width: 100% !important;
 }
 
-
-#foto{
+#foto {
   filter: grayscale(1) !important;
 }
-
 
 @font-face {
   font-family: Century;
   src: url(../src/styles/tipografia/century-gothic.ttf);
 }
 
-*{
-  top:0;
+* {
+  top: 0;
   left: 0;
 }
 
@@ -53,19 +59,18 @@ ul {
   padding: 0;
 }
 
-#m2{
+#m2 {
   margin-top: -23px !important;
- margin-left: 70%;
- text-transform: uppercase !important;
+  margin-left: 70%;
+  text-transform: uppercase !important;
 }
 
-#Reg{
+#Reg {
   font-size: 15pt;
   color: #004700;
 }
 
 li {
-  
   margin-bottom: 10px;
   line-height: 1.5;
 }
@@ -110,22 +115,21 @@ body {
 
 #nome {
   color: rgb(0, 53, 18) !important;
-}layer
-
-#tm {
+}
+layer #tm {
   color: #0077ff;
 }
-#logoHeader{
+#logoHeader {
 }
 
-#animetext{
+#animetext {
   text-transform: uppercase;
-  font-weight: 900 ;
+  font-weight: 900;
   padding-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
-   font-size: 30pt;
+  font-size: 30pt;
 }
 
 .css-1wlk0hk-MuiAvatar-root {
@@ -134,7 +138,7 @@ body {
   height: 180px !important;
   filter: grayscale(10);
 }
-#anime{
+#anime {
   border-radius: 30px;
   height: 200px;
   width: 70%;
@@ -142,36 +146,29 @@ body {
   margin-top: 20%;
   position: absolute;
   text-align: center;
- 
+
   z-index: 1200;
   font-weight: bold;
   color: #fff;
   background: #000000c2;
- 
-
 }
 
-#qsomos{
+#qsomos {
   width: 96%;
   margin-left: 2%;
 }
 
-.css-18st3fs-MuiButtonBase-root-MuiButton-root{
-  color:#222222 !important;
-font-size: 12pt !important;
-text-transform: lowercase !important;
+.css-18st3fs-MuiButtonBase-root-MuiButton-root {
+  color: #222222 !important;
+  font-size: 12pt !important;
+  text-transform: lowercase !important;
 }
 
-.css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
+.css-18st3fs-MuiButtonBase-root-MuiButton-root:hover {
   font-size: 12pt !important;
-    color:#646464 !important;
-    font-size: 12pt !important;
-    text-transform: lowercase !important;
-
-
-
-
-
+  color: #646464 !important;
+  font-size: 12pt !important;
+  text-transform: lowercase !important;
 }
 
 .css-1hv8oq8-MuiStepLabel-label.Mui-active {
@@ -181,7 +178,7 @@ text-transform: lowercase !important;
 #layer1 {
   width: 70%;
   margin-left: 15%;
- text-align: center;
+  text-align: center;
   position: absolute;
   z-index: 2000 !important;
   font-size: 28pt;
@@ -191,7 +188,6 @@ text-transform: lowercase !important;
   text-transform: uppercase;
   font-family: sans-serif;
   font-weight: 900;
- 
 }
 #textos {
   margin-left: 8px !important;
@@ -203,10 +199,9 @@ strong {
 
 #missaovisaovalor {
   background: #fff !important;
-  
 }
 
-#logowhatsapp{
+#logowhatsapp {
   margin-top: -50px !important;
   margin-left: 40px;
 }
@@ -221,7 +216,7 @@ strong {
   display: flex;
   justify-content: space-evenly;
 }
-#flexc{
+#flexc {
   display: flex !important;
 }
 .css-ahj2mt-MuiTypography-root {
@@ -288,33 +283,24 @@ h2 {
   margin-left: 30px;
 }
 
-
 #text_btn_w {
   margin-top: 15px;
   font-weight: 400;
 }
 
-
-
-
-
 #initial {
   left: 0 !important;
   background-image: url("../src/styles/image/back.jpg");
-  background-size:cover;
+  background-size: cover;
   height: 100vh !important;
   width: 100vw;
-  
-  
 }
 
 #LVMLOGO {
   margin-top: 100px !important;
 }
 
-
 #arx {
-  
   font-size: 20pt;
 }
 #arx1 {
@@ -355,7 +341,6 @@ h2 {
   z-index: 1000 !important;
   height: 80px;
   width: 100%;
-
 }
 
 button {
@@ -368,7 +353,7 @@ button {
 }
 
 #home {
-  color:  #004d00 !important;
+  color: #004d00 !important;
   cursor: pointer;
   font-size: 10pt;
 }
@@ -378,181 +363,135 @@ button {
   cursor: pointer;
 }
 
-.css-ahj2mt-MuiTypography-root{
+.css-ahj2mt-MuiTypography-root {
   font-family: "century";
 }
 
-.css-9tmuzo-MuiStepper-root{
+.css-9tmuzo-MuiStepper-root {
   width: 50% !important;
   margin-left: 25%;
 }
-.MuiTypography-root .MuiTypography-body1 .css-ahj2mt-MuiTypography-root{
+.MuiTypography-root .MuiTypography-body1 .css-ahj2mt-MuiTypography-root {
   width: 100% !important;
 }
 
-#text{
+#text {
   width: 700px !important;
 }
 
-.MuiStepContent-root .css-14yr603-MuiStepContent-root{
+.MuiStepContent-root .css-14yr603-MuiStepContent-root {
   width: 70% !important;
   margin-left: 15% !important;
-
-}
-.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
-  color:#007000 !important;
-      font-size: 40pt !important;
-
 }
 
-.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
-
-    color:#003300 !important;
-    font-size: 40pt !important;
-  
-
-
-}
-
-.css-ahj2mt-MuiTypography-root{
-width: 900px !important;
+.css-ahj2mt-MuiTypography-root {
+  width: 900px !important;
 }
 
 #rest {
   color: #028102 !important;
   cursor: pointer;
-    font-size: 10pt;
-
+  font-size: 10pt;
 }
 
-p{
+p {
   text-align: justify;
   font-size: 15pt;
   font-family: "century";
 }
 
-#missaovalores{
+#missaovalores {
   display: flex;
-   justify-content: space-evenly !important; 
-   width: 100%;
-   margin-left: 1.5%;
-
+  justify-content: space-evenly !important;
+  width: 100%;
+  margin-left: 1.5%;
 }
 
-.css-1f5ro5o-MuiButtonBase-root-MuiButton-root{
+.css-1f5ro5o-MuiButtonBase-root-MuiButton-root {
   background-color: transparent !important;
-  color:#003300 !important;
+  color: #003300 !important;
   border-style: none !important;
   box-shadow: none !important;
   font-size: 13pt !important;
-
 }
 
-#textmissaoL{
+#textmissaoL {
   text-align: justify;
-  color:#fff;
+  color: #fff;
 
   margin-left: 40px !important;
   margin-right: 40px !important;
-   padding-top: 40px !important;
-    padding-bottom: 40px !important;
-
-
-
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
 }
 
-
-#textvisaoL{
+#textvisaoL {
   text-align: justify;
-  color:#fff;
+  color: #fff;
 
   margin-left: 40px !important;
   margin-right: 40px !important;
-   padding-top: 40px !important;
-    padding-bottom: 40px !important;
-
-
-
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
 }
 
-
-#textvalorL{
+#textvalorL {
   display: flex;
-      font-size: 12pt;
-   justify-content: space-evenly !important; 
+  font-size: 12pt;
+  justify-content: space-evenly !important;
 }
 
-  
-
-
-#valoresL{
-height: 120px;
+#valoresL {
+  height: 120px;
   width: 97%;
   margin-left: 1.5%;
-    background: #3b3b3b;
-    color: #fff;
-    border-radius: 10px;
-
-
+  background: #3b3b3b;
+  color: #fff;
+  border-radius: 10px;
 }
 
-#textvalorL{
-
-  color:#fff;
-font-size: 10pt !important;
+#textvalorL {
+  color: #fff;
+  font-size: 10pt !important;
   margin-left: 20px !important;
   margin-right: 20px !important;
-   padding-top: 20px !important;
-    padding-bottom: 0px !important;
-
+  padding-top: 20px !important;
+  padding-bottom: 0px !important;
 }
 
-#visaoL{
+#visaoL {
   font-size: 13pt;
   background: #1e8b27;
   width: 94% !important;
   border-radius: 10px;
-
 }
 
-
-#missaoL{
-
+#missaoL {
   font-size: 13pt;
   background: #1e8b27;
   width: 94% !important;
   border-radius: 10px;
-
 }
 
-
-
-ul{
+ul {
   height: 300px !important;
   overflow: auto !important;
-
 }
 
-
-.css-1f5ro5o-MuiButtonBase-root-MuiButton-root:hover{
-   background-color: transparent !important;
-  color:#017c01 !important;
-    border-style: none !important;
-      box-shadow: none !important;
-        font-size: 13pt !important;
-
-
-
-  
+.css-1f5ro5o-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: transparent !important;
+  color: #017c01 !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  font-size: 13pt !important;
 }
-
 
 #rest:hover {
-  color:  #00a9f7 !important;
+  color: #00a9f7 !important;
   cursor: pointer;
 }
 
-#RIU{
+#RIU {
   font-size: 14pt;
   margin-top: -36px;
   margin-left: 100px;
@@ -573,14 +512,13 @@ button:hover {
   margin-left: 62%;
 }
 
-#men{
+#men {
   position: fixed;
   width: 100%;
   height: 80px !important;
   background: #ffffff;
   z-index: 1500 !important;
-  border-bottom:1px solid  #1e8b27;
-  
+  border-bottom: 1px solid #1e8b27;
 }
 
 #missao {
@@ -588,8 +526,6 @@ button:hover {
   width: 96%;
   margin-left: 2%;
 }
-
-
 
 #quemsomos {
   background: #dddddd;

@@ -187,7 +187,7 @@ export default function ActionAreaCard() {
                 {" "}
                 Dr.Marco Túlio Marques Machado - Crea-68630-D - Engenheiro Civil
               </div>
-              marcotulio@lvmregulariza.com.br - (34)-988485150<br></br>
+              marcotulio@lvmregulariza.com.br - (34)-98848-5150<br></br>
               <hr></hr>
               <div id="cvw">
                 <div>

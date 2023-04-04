@@ -70,7 +70,7 @@ export default function ControlledAccordions() {
 
                 <li>
                   <strong>Atas:</strong> registro das decisões e deliberações
-                  tomadas em assembleias de condomínio ou reuniões de
+                  tomadas em assembléias de condomínio ou reuniões de
                   proprietários de imóveis.
                 </li>
                 <br></br>
@@ -78,8 +78,8 @@ export default function ControlledAccordions() {
                 <li>
                   <strong>Regimentos Internos:</strong> normas e regras de
                   convivência entre os condôminos, como horários de uso das
-                  áreas comuns, regras de convivência, proibição de atividades
-                  que possam perturbar o sossego, entre outras.
+                  áreas comuns, proibição de atividades que possam perturbar o
+                  sossego, entre outras.
                 </li>
                 <br></br>
 
@@ -213,8 +213,8 @@ export default function ControlledAccordions() {
 
                 <li>
                   <strong>Compra e venda:</strong> contrato em que o
-                  proprietário de um imóvel vende este imóvel para outra pessoa
-                  ou empresa, mediante pagamento de um valor pré-determinado e
+                  proprietário de um imóvel vende esse para outra pessoa ou
+                  empresa, mediante pagamento de um valor pré-determinado e
                   respeitando as condições estipuladas em contrato, como forma
                   de pagamento, prazo de entrega, entre outras cláusulas.
                 </li>
@@ -264,7 +264,7 @@ export default function ControlledAccordions() {
               <ul>
                 <li>
                   <strong>Adjudicação compulsória:</strong> procedimento em que
-                  o comprador de um imóvel busca obter na Justiça a
+                  o comprador de um imóvel busca obter no cartório a
                   transferência da propriedade do imóvel, quando o vendedor se
                   recusa a fazê-lo mesmo após ter recebido o pagamento do valor
                   acordado.
@@ -274,7 +274,7 @@ export default function ControlledAccordions() {
                 <li>
                   <strong>Usucapião:</strong> procedimento em que uma pessoa que
                   ocupou um imóvel por determinado período de tempo, sem ser
-                  proprietária, busca obter na Justiça a propriedade deste
+                  proprietária, busca obter no cartório a propriedade deste
                   imóvel, desde que atendidos os requisitos legais para a
                   configuração da usucapião.
                 </li>
@@ -326,16 +326,16 @@ export default function ControlledAccordions() {
                 <br></br>
 
                 <li>
-                  <strong>Desdobramento:</strong> procedimento em que um imóvel
-                  é dividido em duas ou mais unidades imobiliárias
-                  independentes, mediante aprovação dos órgãos competentes.
+                  <strong>Desmembramento:</strong> O imóvel objeto da matrícula
+                  é dividido em dois ou mais novos imóveis. Para cada novo
+                  imóvel será aberta uma matrícula cancelando-se a primitiva.
                 </li>
                 <br></br>
 
                 <li>
-                  <strong>Desdobro:</strong> procedimento em que um imóvel é
-                  dividido em duas ou mais unidades imobiliárias independentes,
-                  mediante aprovação dos órgãos competentes.
+                  <strong>Desdobro:</strong> Uma parte da gleba maior pode ser
+                  desdobrada ou segregada para formar um ou mais imóveis novos.
+                  Será aberta uma nova matrícula, sem encerrar a do imóvel primitivo.S
                 </li>
                 <br></br>
 
@@ -346,7 +346,7 @@ export default function ControlledAccordions() {
                   parte ideal do imóvel.
                 </li>
                 <li>
-                  <strong>Loteamento:</strong> o processo de divisão de uma área
+                  <strong>Loteamento:</strong> Processo de divisão de uma área
                   em lotes, destinados à venda, locação ou edificação.
                 </li>
                 <li>
