@@ -4,6 +4,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import RegularizacaoAdministrativa  from "./forms/RegularizacaoAdministrativa";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -30,8 +31,8 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <div id="itens">
-              <ul>
+            <ul id="itens">
+              <div>
                 <li>
                   <strong>Convenção de Condomínio:</strong> documento que
                   estabelece as regras e normas que regem a convivência entre os
@@ -57,7 +58,7 @@ export default function ControlledAccordions() {
                 <li>
                   <strong>Gestão de Condomínio:</strong> normas e procedimentos
                   que devem ser adotados para a administração do condomínio,
-                  como eleição de síndico, assembléias, prestação de contas,
+                  como eleição de síndico, assembleias, prestação de contas,
                   entre outros.
                 </li>
                 <br></br>
@@ -70,7 +71,7 @@ export default function ControlledAccordions() {
 
                 <li>
                   <strong>Atas:</strong> registro das decisões e deliberações
-                  tomadas em assembléias de condomínio ou reuniões de
+                  tomadas em assembleias de condomínio ou reuniões de
                   proprietários de imóveis.
                 </li>
                 <br></br>
@@ -119,8 +120,9 @@ export default function ControlledAccordions() {
                   propriedades.
                 </li>
                 <br></br>
-              </ul>
-            </div>
+              </div>
+             
+            </ul>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -335,7 +337,8 @@ export default function ControlledAccordions() {
                 <li>
                   <strong>Desdobro:</strong> Uma parte da gleba maior pode ser
                   desdobrada ou segregada para formar um ou mais imóveis novos.
-                  Será aberta uma nova matrícula, sem encerrar a do imóvel primitivo.S
+                  Será aberta uma nova matrícula, sem encerrar a do imóvel
+                  primitivo.
                 </li>
                 <br></br>
 
@@ -559,7 +562,7 @@ export default function ControlledAccordions() {
                 <br></br>
 
                 <li>
-                  <strong>Projeto de Segurança do Trabalho:</strong> Projetos de
+                  <strong>Projeto de Segurança do Trabalho:</strong> projetos de
                   Segurança do trabalho são ações planejadas para prevenir
                   acidentes e doenças ocupacionais em um ambiente de trabalho.
                   Esses projetos visam identificar e avaliar riscos e perigos,

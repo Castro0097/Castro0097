@@ -33,7 +33,7 @@ export default function CvMarco() {
             <div id="cvFormat">
               <hr></hr>
               Bacharelado em Engenharia Civil -{" "}
-              <strong>Universidade de Uberaba - UNIUBE-MG</strong>
+              <strong>Universidade de Uberaba - UNIUBE - MG</strong>
             </div>
           </Typography>
         </AccordionDetails>
@@ -58,7 +58,7 @@ export default function CvMarco() {
             <div id="cvFormat">
               <hr></hr>
               Especialista em engenharia de Segurança do Trabalho -
-              <strong> Universidade - FUMEC-MG</strong>
+              <strong> Universidade - FUMEC - MG</strong>
             </div>
             <div id="cvFormat">
               <hr></hr>

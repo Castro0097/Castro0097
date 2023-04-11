@@ -4,7 +4,7 @@ import Iframe from "react-iframe";
 
 export default function Contato() {
   return (
-    <div id="contato">
+      <div id ="centerconteud">
       <br></br>
       <h2>CONTATO</h2>
       <h3>
@@ -45,5 +45,6 @@ export default function Contato() {
         </div>
       </h3>
     </div>
+    
   );
 }

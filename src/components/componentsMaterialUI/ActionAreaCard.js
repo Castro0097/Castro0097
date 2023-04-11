@@ -18,7 +18,7 @@ import Facebook from "../../styles/image/redes/facebook.png";
 export default function ActionAreaCard() {
   return (
     <div id="mvv">
-      <Card sx={{ maxWidth: 300 }}>
+      <Card sx={{ maxWidth: 340 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -88,7 +88,7 @@ export default function ActionAreaCard() {
         <div id="px50"></div>
       </Card>
 
-      <Card sx={{ maxWidth: 300 }}>
+      <Card sx={{ maxWidth: 340 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -168,7 +168,7 @@ export default function ActionAreaCard() {
         </CardActionArea>
       </Card>
 
-      <Card sx={{ maxWidth: 300 }}>
+      <Card sx={{ maxWidth: 340 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -185,7 +185,7 @@ export default function ActionAreaCard() {
               <hr></hr>
               <div id="nome">
                 {" "}
-                Dr.Marco Túlio Marques Machado - Crea-68630-D - Engenheiro Civil
+                Dr. Marco Túlio Marques Machado - Crea-68630-D - Engenheiro Civil
               </div>
               marcotulio@lvmregulariza.com.br - (34)-98848-5150<br></br>
               <hr></hr>

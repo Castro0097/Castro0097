@@ -35,7 +35,7 @@ export default function CvLibero() {
               Doutorado em Direito Processual -{" "}
               <strong>
                 {" "}
-                Pontifícia Universidade Católica de Minas Gerais - PUC-MINAS
+                Pontifícia Universidade Católica de Minas Gerais - PUC - MINAS
               </strong>
             </div>
           </Typography>

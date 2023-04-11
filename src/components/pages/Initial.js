@@ -1,13 +1,26 @@
 
 import Typewriter from "typewriter-effect";
+import LogoLVMR from "../../styles/image/logoLVM.png"
+import Nav from "../Nav"
 
 export default function Initial(){
 
     return (
       <div id="initial">
-       
+        <Nav></Nav>
         <div id="anime">
           <div id="animetext">
+            <div id="logoMobile">
+              {" "}
+              <img src={LogoLVMR} alt="Logo Mobile" height="120px"></img>
+              <br></br>
+            </div>
+            <div id="reftext" className="refclass">
+              {" "}
+              Regularização de Imóveis Urbanos e Rurais - Direito Imobiliário{" "}
+              <strong>ARAXÁ-MG e REGIÃO </strong>
+            </div><br></br>
+
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
