@@ -18,7 +18,7 @@ import Facebook from "../../styles/image/redes/facebook.png";
 export default function ActionAreaCard() {
   return (
     <div id="mvv">
-      <Card sx={{ maxWidth: 340 }}>
+      <Card sx={{ maxWidth: 400 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -85,10 +85,10 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <div id="px50"></div>
       </Card>
+      <div id="px50"> LVM </div>
 
-      <Card sx={{ maxWidth: 340 }}>
+      <Card sx={{ maxWidth: 400 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -167,8 +167,9 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
+      <div id="px50"> LVM </div>
 
-      <Card sx={{ maxWidth: 340 }}>
+      <Card sx={{ maxWidth: 400 }}>
         <CardActionArea>
           <div id="header_Basick"></div>
           <CardMedia
@@ -185,9 +186,10 @@ export default function ActionAreaCard() {
               <hr></hr>
               <div id="nome">
                 {" "}
-                Dr. Marco Túlio Marques Machado - Crea-68630-D - Engenheiro Civil
+                Dr. Marco Túlio Marques Machado - Crea-68630-D - Engenheiro
+                Civil
               </div>
-              marcotulio@lvmregulariza.com.br - (34)-98848-5150<br></br>
+              marco@lvmregulariza.com.br - (34)-98848-5150<br></br>
               <hr></hr>
               <div id="cvw">
                 <div>
@@ -241,7 +243,7 @@ export default function ActionAreaCard() {
                   ></img>
                 </div>
               </div>
-              <br></br>
+              <hr></hr>
               <br></br>
               <CvMarco></CvMarco>
             </Typography>

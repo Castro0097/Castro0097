@@ -23,7 +23,7 @@ export default function CvMarco() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Graduação
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
@@ -48,7 +48,7 @@ export default function CvMarco() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Especialização
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>

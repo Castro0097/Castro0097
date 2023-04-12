@@ -42,25 +42,24 @@ export default function VerticalLinearStepper() {
 
   return (
     <div id="conhecanossaforma">
-      <Box sx={{ maxWidth: 1400 }}>
-        <Stepper id="boxt" activeStep={activeStep} orientation="vertical">
+      <Box id="lts" sx={{ maxWidth: 2400 }}>
+        <Stepper activeStep={activeStep} orientation="vertical">
           {steps.map((step, index) => (
-            <Step
-              id="css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active"
-              key={step.label}
-            >
+            <Step id="panel1bh-header" key={step.label}>
               <StepLabel
-                id="passo"
+                id="panel1bh-header"
                 optional={
                   index === 2 ? (
-                    <Typography variant="success">Proximo Passo </Typography>
+                    <Typography id="panel1bh-header" variant="success">
+                      Proximo Passo{" "}
+                    </Typography>
                   ) : null
                 }
               >
                 {step.label}
               </StepLabel>
               <StepContent>
-                <Typography>{step.description}</Typography>
+                <div>{step.description}</div>
                 <Box sx={{ mb: 2 }}>
                   <div>
                     <Button
@@ -87,7 +86,7 @@ export default function VerticalLinearStepper() {
         </Stepper>
         {activeStep === steps.length && (
           <Paper square elevation={0} sx={{ p: 3 }}>
-            <Typography>
+            <div id="ty">
               Caro cliente, Gostaríamos de agradecer pelo interesse em nossos
               serviços de regularização de imóveis urbanos e rurais. Lembramos
               que o primeiro passo é simples: basta encaminhar todos os
@@ -103,8 +102,8 @@ export default function VerticalLinearStepper() {
               iniciamos o processo de regularização com agilidade e expertise,
               garantindo a segurança jurídica do seu imóvel. Conte conosco para
               ajudá-lo a regularizar seu patrimônio. Atenciosamente, Equipe LVM
-              Regularização. 
-            </Typography>
+              Regularização.
+            </div>
             <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
               Encerrar
             </Button>

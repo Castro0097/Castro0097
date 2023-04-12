@@ -23,14 +23,13 @@ export default function CvLibero() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Doutorado
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-           
             <div id="cvFormat">
               Doutorado em Direito Processual -{" "}
               <strong>
@@ -50,7 +49,9 @@ export default function CvLibero() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>Mestrado</Typography>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
+            Mestrado
+          </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -74,14 +75,13 @@ export default function CvLibero() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Especialização
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          
             <div id="cvFormat">
               <hr></hr>
               Especialização em Direito Processual Civil -{" "}
@@ -110,7 +110,7 @@ export default function CvLibero() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Graduação
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
@@ -134,7 +134,7 @@ export default function CvLibero() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             Certificação
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
@@ -172,8 +172,8 @@ export default function CvLibero() {
 
             <div id="cvFormat">
               <hr></hr>
-              Curso de Regularização fundiária Urbana - Projetos e minutas de Lei
-              sobre Reurb -{" "}
+              Curso de Regularização fundiária Urbana - Projetos e minutas de
+              Lei sobre Reurb -{" "}
               <strong>Universidade Federal rural do Semi-Árido - UFERSA</strong>
             </div>
 
@@ -220,7 +220,6 @@ export default function CvLibero() {
               Curso de Regularização de imóveis e perícia judicial -{" "}
               <strong>EBPÓS</strong>
             </div>
-
           </Typography>
         </AccordionDetails>
       </Accordion>

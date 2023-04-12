@@ -5,20 +5,21 @@ export default function BasicStack() {
         <br></br>
         <div id="missaovalores">
           <div>
+            <h2>Missão</h2>
             <div id="missaoL">
               <div id="textmissaoL">
-                <h2>Missão</h2>
                 Fornecer serviços de consultoria em regularização de imóveis
                 urbanos e rurais, contribuindo para a segurança jurídica e o
                 desenvolvimento sustentável do país, por meio de soluções
                 inovadoras e eficientes.
               </div>
             </div>
+            <br></br>
           </div>
           <div>
+            <h2>Visão</h2>
             <div id="visaoL">
               <div id="textvisaoL">
-                <h2>Visão</h2>
                 Ser reconhecido como escritório modelo em consultoria e
                 regularização de imóveis urbanos e rurais, consolidando nossa
                 marca em todo o território nacional e sendo referência no setor
@@ -30,9 +31,10 @@ export default function BasicStack() {
         <br></br>
 
         <br></br>
+        <h2>Valores</h2>
         <div id="valoresL">
           <br></br>
-          <h2>Valores</h2>
+
           <div id="textvalorL" className="descktopUL">
             <div id="mobiliul" className="desktop">
               <li>Ética em todas as nossas ações</li>

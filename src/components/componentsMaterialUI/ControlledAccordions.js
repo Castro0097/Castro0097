@@ -24,13 +24,13 @@ export default function ControlledAccordions() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Regularização Administrativa</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography id="panel1bh-header">
             <ul id="itens">
               <div>
                 <li>
@@ -121,7 +121,6 @@ export default function ControlledAccordions() {
                 </li>
                 <br></br>
               </div>
-             
             </ul>
           </Typography>
         </AccordionDetails>
@@ -136,7 +135,7 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Planejamento</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
@@ -185,7 +184,7 @@ export default function ControlledAccordions() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Contratos Imobiliários</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
@@ -255,7 +254,7 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Procedimentos extrajudiciais</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
@@ -373,7 +372,7 @@ export default function ControlledAccordions() {
           aria-controls="panel5bh-content"
           id="panel5bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Procedimentos judiciais</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
@@ -476,7 +475,7 @@ export default function ControlledAccordions() {
           aria-controls="panel6bh-content"
           id="panel6bh-header"
         >
-          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+          <Typography id="panel1bh-header" sx={{ width: "33%", flexShrink: 0 }}>
             <strong>Engenharia</strong>
           </Typography>
           <Typography sx={{ color: "text.secondary" }}> </Typography>
