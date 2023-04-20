@@ -9,6 +9,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Button, Typography } from "@mui/material";
 import Century from "../src/styles/tipografia/century-gothic.ttf";
 import Nav from "../src/components/Nav"
+import WhatMobile from "../src/components/WhatMobile";
 
 
 
@@ -52,6 +53,7 @@ function App() {
       <div className="App">
         <div id="men">
           <Header></Header>
+          <WhatMobile />
         </div>
 
         <Initial />
@@ -64,10 +66,14 @@ function App() {
         <div id="container">
           <Home></Home>
           <br></br>
+          <br></br>
           <QuemSomos></QuemSomos>
+          <br></br>
           <br></br>
           <Estudos></Estudos>
         </div>
+        <br></br>
+        <br></br>
         <Contato />
       </div>
     </ThemeProvider>

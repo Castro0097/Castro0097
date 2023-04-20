@@ -3,16 +3,25 @@ import React from "react";
 import Whats from "../styles/image/redes/whatsapp.png";
 
 function Header() {
+  function qS() {
+    const element = document.getElementById("quemsomos");
+    element.scrollIntoView();
+  }
+
+  function servicos() {
+    const element = document.getElementById("servi");
+    element.scrollIntoView();
+  }
+
+    function contato() {
+      const element = document.getElementById("contact");
+      element.scrollIntoView();
+    }
+
   return (
     <div id="header">
       <div id="Reg">
-        <img
-         
-          src={Logo}
-          id="logoHeader"
-          height="80px"
-          alt="Logomarca"
-        ></img>
+        <img src={Logo} id="logoHeader" height="80px" alt="Logomarca"></img>
         <div id="RIU">
           - Regularização de Imóveis Urbanos e Rurais - Direito Imobiliário{" "}
           <strong>ARAXÁ-MG e REGIÃO </strong>
@@ -28,10 +37,11 @@ function Header() {
           >
             HOME
           </button>
+
           <button
             id="rest"
             onClick={() => {
-              window.scrollTo(0, 965);
+              qS();
             }}
           >
             QUEM SOMOS
@@ -39,7 +49,7 @@ function Header() {
           <button
             id="rest"
             onClick={() => {
-              window.scrollTo(0, 2110);
+              servicos();
             }}
           >
             SERVIÇOS
@@ -47,16 +57,23 @@ function Header() {
           <button
             id="rest"
             onClick={() => {
-              window.scroll(0, 3110);
+              contato();
             }}
           >
             CONTATO
           </button>
         </div>
         <div id="logowhatsapp">
-          <img alt="contato" src={Whats} height="50px" onClick={()=>{window.open(
-            "https://api.whatsapp.com/send/?phone=5534991499080&text&type=phone_number&app_absent=0"
-          );}}></img>
+          <img
+            alt="contato"
+            src={Whats}
+            height="50px"
+            onClick={() => {
+              window.open(
+                "https://api.whatsapp.com/send/?phone=5534991499080&text&type=phone_number&app_absent=0"
+              );
+            }}
+          ></img>
         </div>
       </div>
     </div>

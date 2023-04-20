@@ -1,34 +1,104 @@
 @media screen and (max-width: 900px) {
-
-
-
-body {
+  body {
     overflow-x: hidden;
-}
+  }
 
+  #centerconteud {
+    width: 90% !important;
+    margin-left: 5% !important;
+  }
 
+  #sowp {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 30px !important;
+    width: 100%;
+    position: fixed !important;
+    z-index: 15 !important;
+    display: block !important;
+    background:rgb(255, 255, 255) !important;
+     border-bottom: 1px solid #1e8b27 !important;
 
+   
+  }
 
+  #btn_m {
+    height: 30px !important;
+    width: 10px !important;
+    border-style: none !important;
+    font-size: 18pt !important;
+    background:rgb(255, 255, 255) !important;
+    color: #1f1f1f;
+  }
 
-
-
-
-
-
-
-
-  #mobiliul{
+  #mobiliul {
     padding-top: 10px !important;
     margin-left: 10px !important;
     height: auto !important;
   }
 
+  #btncont {
+    text-align: center !important;
+    font-size: 18pt !important;
+    margin-top: 8px !important;
+  }
 
+  #mge {
+    margin-left: 10px;
+  }
+
+  #btnflex {
+    display: flex;
+  }
+
+  #wpt {
+    position: absolute;
+    color: #fff;
+    display: block !important;
+    width: 60%;
+    margin-left: 20%;
+    height: 50px;
+    background: #29a71a !important;
+    margin-top: 500px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #29a71a;
+    box-shadow: 2px 2px 2px #888888;
+    z-index: 7;
+  }
+
+  #wpt:hover {
+    color: #fff;
+    position: absolute;
+    z-index: 7;
+    display: block !important;
+    width: 60%;
+    margin-left: 20%;
+    height: 50px;
+    background: #38e625 !important;
+    margin-top: 500px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #888888;
+  }
 
   #reftext {
     display: block !important;
     font-size: 10pt;
     color: #c7c7c7;
+  }
+
+  #componentewpt {
+    width: 70% !important;
+    margin-left: 15px !important;
+
+    color: #fff !important;
+    position: absolute !important;
+    z-index: 6 !important;
+    background: #0077ff;
+    margin-top: 700px;
+    display: block !important;
   }
 
   #textvalorL {
@@ -67,12 +137,10 @@ body {
   }
 
   #itens {
+    text-align: justify !important;
     height: 400px !important;
     overflow: auto !important;
-  
   }
-
-
 
   #logoMobile {
     padding-top: 30px;
@@ -133,17 +201,13 @@ body {
   }
 } /* Estilo para dispositivos moveis*/
 
+#efect {
+  position: absolute;
+  height: 400px !important;
+  width: 100% !important;
 
-
-
-  #efect{
-    position: absolute;
-    height: 400px !important;
-    width: 100% !important;
-    
-      background: rgb(126, 15, 15) !;
-   
-  }
+  background: rgb(126, 15, 15) !;
+}
 
 #logoMobile {
   display: none;
@@ -207,6 +271,13 @@ ul {
   text-transform: uppercase !important;
 }
 
+#componentewpt {
+  display: none;
+}
+
+#wpt {
+  display: none;
+}
 #Reg {
   font-size: 15pt;
   color: #004700;
@@ -240,10 +311,10 @@ body {
   font-weight: 300;
 }
 #texto2 {
-     font-size: 14pt !important;
-    line-height: 1.3 !important;
-    color: #464646;
-    text-align: justify !important;
+  font-size: 14pt !important;
+  line-height: 1.3 !important;
+  color: #464646;
+  text-align: justify !important;
 }
 
 #contato {
@@ -285,14 +356,14 @@ layer #tm {
   position: absolute;
   text-align: center;
 
-  z-index: 1200;
+  z-index: 5;
   font-weight: bold;
   color: #fff;
   background: #000000c2;
 }
 
 #qsomos {
-  width:100%;
+  width: 100%;
 }
 
 .css-18st3fs-MuiButtonBase-root-MuiButton-root {
@@ -325,7 +396,7 @@ layer #tm {
   margin-left: 15%;
   text-align: center;
   position: absolute;
-  z-index: 2000 !important;
+  z-index: 4 !important;
   font-size: 20pt !important;
   margin-top: -450px;
   font-weight: 900;
@@ -455,7 +526,6 @@ h2 {
   font-size: 14pt;
 }
 
-
 #flexC {
   margin-top: 50px;
   display: flex;
@@ -466,7 +536,7 @@ h2 {
 }
 
 #menu {
-  z-index: 1000 !important;
+  z-index: 10 !important;
   height: 80px;
   width: 100%;
 }
@@ -487,7 +557,6 @@ button {
 }
 
 #home:hover {
-  color: #00a9f7 !important;
   cursor: pointer;
 }
 
@@ -534,7 +603,8 @@ p {
 }
 
 #textvalorL {
-   text-align: inherit !important;
+  justify-content: space-between !important;
+  text-align: inherit !important;
   color: #fff;
   display: flex;
   margin-left: 10px !important;
@@ -549,6 +619,10 @@ p {
   background: #000000c2;
   width: 100% !important;
   border-radius: 10px;
+  border-radius: 10px;
+  border: 0.5px solid;
+  border-color: #1e8b27;
+  box-shadow: 5px 5px 5px #a8a8a8;
 }
 
 #visaoL {
@@ -556,6 +630,9 @@ p {
   background: #1e8b27;
   width: 99% !important;
   border-radius: 10px;
+  border: 0.5px solid;
+  border-color: #1e8b27;
+  box-shadow: 5px 5px 5px #a8a8a8;
 }
 
 #missaoL {
@@ -564,6 +641,9 @@ p {
   background: #1e8b27;
   width: 99% !important;
   border-radius: 10px;
+  border: 0.5px solid;
+  border-color: #1e8b27;
+  box-shadow: 5px 5px 5px #a8a8a8;
 }
 
 ul {
@@ -584,7 +664,7 @@ ul {
   cursor: pointer;
 }
 
-li:before{
+li:before {
   display: none;
 }
 
@@ -614,7 +694,7 @@ button:hover {
   width: 100%;
   height: 80px !important;
   background: #ffffff;
-  z-index: 1500 !important;
+  z-index: 11 !important;
   border-bottom: 1px solid #1e8b27;
 }
 
@@ -655,80 +735,72 @@ button:hover {
   width: 100%;
 }
 
-
-#centerconteud{
-
+#centerconteud {
   width: 90%;
   margin-left: 5%;
 }
 
-#mobiliul{
+#mobiliul {
 }
 
-
-.descktopUL{
+.descktopUL {
   display: flex !important;
   text-align: center;
   font-size: 12pt !important;
 }
 
-
-.refclass{
+.refclass {
   display: none;
 }
-
-
 
 .css-9l3uo3 {
   font-size: 14pt !important;
   font-family: "Century" !important;
 }
 
-
-
-#lts{
-     
-    font-size: 13pt;
-    line-height: 1.6;
-    text-align: justify;
-    width: 100%;
-    font-weight: 300;
+#lts {
+  font-size: 13pt;
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+  font-weight: 300;
 }
 
-#ty{
-  
+#ty {
 }
 
-#cvlibg{
+#cvlibg {
   color: #004700;
 }
 
-#panel1bh-header{
+#panel1bh-header {
   font-family: "Century" !important;
-  color:#131313;
+  color: #131313;
   text-align: left;
-  
 }
 
-#mg{
+#mg {
   margin-top: 50px;
   background: transparent;
 }
 
-
-#px50{
+#px50 {
   height: 20px;
-  color:transparent
+  color: transparent;
 }
 
-#contact{
+#contact {
   background: #dddddd;
 }
 
-#criado{
+#criado {
   text-align: center;
   font-size: 9pt;
   color: #acacac;
   font-family: monospace;
   background: #000000;
+}
+
+#sowp{
+  display: none;
 }
