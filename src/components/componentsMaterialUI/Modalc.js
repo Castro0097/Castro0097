@@ -38,10 +38,7 @@ export default function Modalc() {
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancelar</Button>
-          <Button onClick={handleClose} autoFocus>
-            Iniciar
-          </Button>
-        </DialogActions>
+                </DialogActions>
       </Dialog>
     </div>
   );
