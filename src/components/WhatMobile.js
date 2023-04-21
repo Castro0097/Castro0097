@@ -142,7 +142,7 @@ export default function WhatMobile() {
                 handleCloseContato();
               }}
               primary="Contato"
-              secondary="Araxá e Regição"
+              secondary="Araxá e Região"
             />
           </ListItem>
           <Divider />

@@ -349,7 +349,7 @@ layer #tm {
 }
 #anime {
   border-radius: 30px;
-  height: 200px;
+  height: max-content;
   width: 70%;
   margin-left: 15%;
   margin-top: 20%;
@@ -553,7 +553,7 @@ button {
 #home {
   color: #004d00 !important;
   cursor: pointer;
-  font-size: 10pt;
+  font-size: 1vw;
 }
 
 #home:hover {
@@ -567,7 +567,7 @@ button {
 #rest {
   color: #028102 !important;
   cursor: pointer;
-  font-size: 10pt;
+  font-size: 1vw !important;
 }
 
 p {
@@ -669,7 +669,7 @@ li:before {
 }
 
 #RIU {
-  font-size: 14pt;
+  font-size: 1.35vw;
   margin-top: -36px;
   margin-left: 100px;
 }
