@@ -12,7 +12,7 @@ const steps = [
   {
     label: "Passo 1 - ENVIO DE DOCUMENTOS",
     description: `
-    O primeiro  passo é simples: basta encaminhar todos os documentos para o nosso email: atendimento@lvmregulariza.com.br.`
+    O primeiro  passo é simples: basta encaminhar todos os documentos para o nosso email: atendimento@lvmregulariza.com.br`
   },
   {
     label: "Passo 2 - ANÁLISE PRELIMINAR",

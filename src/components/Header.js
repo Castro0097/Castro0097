@@ -6,16 +6,20 @@ function Header() {
   function qS() {
     const element = document.getElementById("quemsomos");
     element.scrollIntoView();
+    
+    
   }
 
   function servicos() {
     const element = document.getElementById("servi");
     element.scrollIntoView();
+    
   }
 
     function contato() {
       const element = document.getElementById("contact");
       element.scrollIntoView();
+      
     }
 
   return (

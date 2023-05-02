@@ -6,6 +6,7 @@
   #centerconteud {
     width: 90% !important;
     margin-left: 5% !important;
+    font-family: "Century" !important;
   }
 
   #sowp {
@@ -267,7 +268,7 @@ ul {
 
 #m2 {
   margin-top: -23px !important;
-  margin-left: 70%;
+  margin-left: 65%;
   text-transform: uppercase !important;
 }
 
@@ -451,6 +452,10 @@ strong {
   color: #000000;
 }
 
+#windowT{
+  font-family: "Century" !important;
+}
+
 #estudos {
   width: 100%;
   text-align: justify;
@@ -461,12 +466,14 @@ strong {
 }
 
 #mvv {
+
   width: 100%;
   justify-content: space-between;
   display: flex;
 }
 h2 {
   text-align: center;
+  font-family: "Century" !important;
 }
 #imgLog {
   width: 220px !important;
@@ -583,7 +590,7 @@ p {
 }
 
 #textmissaoL {
-  text-align: center;
+  text-align: justify;
   color: #fff;
 
   margin-left: 10px !important;
@@ -593,7 +600,7 @@ p {
 }
 
 #textvisaoL {
-  text-align: center;
+  text-align: justify;
   color: #fff;
 
   margin-left: 10px !important;
@@ -735,9 +742,17 @@ button:hover {
   width: 100%;
 }
 
+#telcont{
+  font-size: 18pt !important;
+  font-weight: 900 !important;
+
+  
+}
+
 #centerconteud {
   width: 90%;
   margin-left: 5%;
+  font-family: "Century" !important;
 }
 
 #mobiliul {
@@ -776,7 +791,7 @@ button:hover {
 #panel1bh-header {
   font-family: "Century" !important;
   color: #131313;
-  text-align: left;
+  text-align: justify !important;
 }
 
 #mg {

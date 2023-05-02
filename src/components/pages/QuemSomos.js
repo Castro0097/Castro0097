@@ -7,6 +7,8 @@ export default function QuemSomos() {
       <div id="quemsomos">
         <div id="centerconteud">
           <br></br>
+          <br></br>
+          <br></br>
           <br></br> <h2>QUEM SOMOS</h2>
           <br></br>
           <ActionAreaCard></ActionAreaCard>

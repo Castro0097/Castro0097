@@ -7,6 +7,8 @@ function Estudos() {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
         <h2> Conheça nossa forma de trabalhar em 3 passos </h2>
         <VerticalLinearStepper></VerticalLinearStepper>
         <br></br>

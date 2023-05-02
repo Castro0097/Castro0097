@@ -32,7 +32,7 @@ export default function ControlledAccordions() {
         <AccordionDetails>
           <Typography id="panel1bh-header">
             <ul id="itens">
-              <div>
+              <div id="contratos-imob">
                 <li>
                   <strong>Convenção de Condomínio:</strong> documento que
                   estabelece as regras e normas que regem a convivência entre os
